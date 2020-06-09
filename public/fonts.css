@@ -1,0 +1,10 @@
+@import url("//hello.myfonts.net/count/3bb011");
+  
+@font-face {
+  font-family: 'Gilroy-Light';
+  src: url('webFonts/Gilroy-Light/font.woff2') format('woff2'), url('webFonts/Gilroy-Light/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gilroy-ExtraBold';
+  src: url('webFonts/Gilroy-ExtraBold/font.woff2') format('woff2'), url('webFonts/Gilroy-ExtraBold/font.woff') format('woff');
+}
