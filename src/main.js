@@ -8,7 +8,6 @@ import '@/assets/css/tailwind.css'
 Vue.config.productionTip = false;
 
 new Vue({
-  mode: 'history',
   router,
   store,
   render: h => h(App)
