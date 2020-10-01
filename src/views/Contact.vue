@@ -6,21 +6,15 @@
         <p class="text-lg md:text-lg">
           If you would like to reach me for any reason, feel free to email me:
           <span class="font-bold">joseph@coyne.dev</span>
-
         </p>
       </div>
-        <ProfileCard class="lg:w-full lg:float-right"/>
+      <ProfileCard class="lg:w-full lg:float-right" />
     </div>
   </div>
 </template>
 
-
 <script>
-  export default {
-    
-  }
+export default {};
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

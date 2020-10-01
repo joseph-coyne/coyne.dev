@@ -5,6 +5,14 @@
   src: url('webFonts/Gilroy-Light/font.woff2') format('woff2'), url('webFonts/Gilroy-Light/font.woff') format('woff');
 }
 @font-face {
+  font-family: 'Gilroy-Medium';
+  src: url('webFonts/Gilroy-Medium/font.woff2') format('woff2'), url('webFonts/Gilroy-Medium/font.woff') format('woff');
+}
+@font-face {
   font-family: 'Gilroy-ExtraBold';
   src: url('webFonts/Gilroy-ExtraBold/font.woff2') format('woff2'), url('webFonts/Gilroy-ExtraBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gilroy-SemiBold';
+  src: url('webFonts/Gilroy-SemiBold/font.woff2') format('woff2'), url('webFonts/Gilroy-SemiBold/font.woff') format('woff');
 }
