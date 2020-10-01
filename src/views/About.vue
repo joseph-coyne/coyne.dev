@@ -9,7 +9,7 @@
           <br />My aim for this site is to not only serve as a portfolio of sorts, but as a playground for testing new tech and features. It began as a test of TailwindCSS. You may recognize the inspiration. Currently I am working on making it serve as my own CMS.
           <br />
           <br />If you would like to know more or just want to say hi, feel free to
-          <router-link class="text-blue-500 font-bold" to="contact">contact</router-link>me.
+          <router-link class="text-blue-500 font-bold" to="contact">contact</router-link> me.
         </p>
       </div>
       <ProfileCard class="lg:w-full lg:float-right" />
