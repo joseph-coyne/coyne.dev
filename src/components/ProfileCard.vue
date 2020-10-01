@@ -1,7 +1,7 @@
 <template>
   <div class="profile-card">
     <img
-      class="hidden md:inline max-w-sm ml-20px rounded-lg ml-20"
+      class=" max-w-sm ml-20px rounded-lg ml-20"
       src="../assets/headshot-cropped.png"
       alt="Me!"
     />

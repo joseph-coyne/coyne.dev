@@ -1,7 +1,7 @@
 <template>
   <div id="app">
   <!-- <div id="app" class="px-8 py-1 md:px-30 md:py-8 lg:px-30 lg:py-10 md:w-3/4 md:m-auto"> -->
-    <NavBar />
+    <NavBar class="inset-x-0 top-0 fixed"/>
     
     <router-view />
   </div>

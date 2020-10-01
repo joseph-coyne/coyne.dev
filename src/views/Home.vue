@@ -1,15 +1,15 @@
 <template>
-  <div class="">
-      <section class="flex block py-16">
-        <div class="flex flex-row justify-between items-center px-8 mx-40">
+  <div class="mt-10">
+      <section class="flex block py-16 flex-col">
+        <div class="flex flex-row justify-between items-center px-8 md:mx-40">
           <div class="bio max-w-2xl">
             <h1 class="text-4xl font-bold md:text-5xl mb-8">Hello, I'm Joseph Coyne.</h1>
             <p class="text-lg md:text-xl mb-8">
-              This is my site to show off that I'm a full-stack software developer. I am constantly looking for
+              Welcome to my personal website. I am constantly looking for
               opportunities to grow and create and will be happy to tackle any challenge.
             </p>
           </div>
-          <div class="">
+          <div>
            <ProfileCard />
           </div>
         </div>
