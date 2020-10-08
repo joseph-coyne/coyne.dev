@@ -1,20 +1,23 @@
 <template>
-  <div class="block px-6 md:mx-40">
+  <section class="pt-12 mt-2 md:py-16 ">
     <h2 class="font text-3xl mb-12">Projects</h2>
-    <div
-      class="flex justify-between items-center bg-gray-200 rounded py-1 md:py-0 my-2 px-2"
-      v-for="project in projects"
-      :key="project.id"
-    >
-      <div class="font px-2  whitespace-no-wrap w-40 md:w-24">{{ project.name }}</div>
-      <div class="hidden md:inline text-gray-700 text-center px-4 py-2 m-2">{{ project.bio }}</div>
-      <a
-        :href="project.link"
-        target="_blank"
-        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded"
-      >Link</a>
+    <div class="flex flex-col">
+      <div
+        class="flex justify-between items-center bg-gray-200 rounded md:py-0 my-2 px-4"
+        v-for="project in projects"
+        :key="project.id"
+      >
+        <h1 class="font whitespace-no-wrap">{{ project.name }}</h1>
+        <p class="hidden md:inline text-gray-700 text-center py-2 m-2">{{ project.bio }}</p>
+        <a
+          :href="project.link"
+          target="_blank"
+          class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded"
+        >Link</a>
+      </div>
     </div>
-  </div>
+
+  </section>
 </template>
 
 <script>
