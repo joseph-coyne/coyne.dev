@@ -1,18 +1,18 @@
 <template>
   <section class="pt-12 mt-2 md:py-16 ">
-    <h2 class="font text-3xl mb-12">Projects</h2>
+    <h2 class="font-semibold text-3xl mb-12">Projects</h2>
     <div class="flex flex-col">
       <div
-        class="flex justify-between items-center bg-gray-200 rounded md:py-0 my-2 px-4"
+        class="flex justify-between items-center bg-gray-200 rounded my-2 py-2 md:py-0  px-4"
         v-for="project in projects"
         :key="project.id"
       >
-        <h1 class="font whitespace-no-wrap">{{ project.name }}</h1>
+        <h1 class="font-semibold whitespace-no-wrap">{{ project.name }}</h1>
         <p class="hidden md:inline text-gray-700 text-center py-2 m-2">{{ project.bio }}</p>
         <a
           :href="project.link"
           target="_blank"
-          class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded"
+          class="bg-blue-500 hover:bg-blue-400 text-white font-semibold py-1 px-4 rounded"
         >Link</a>
       </div>
     </div>

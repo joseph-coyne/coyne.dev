@@ -1,13 +1,13 @@
 <template>
   <nav class="mb-10 bg-white">
-    <div class="mx-auto max-w-screen-lg">
-      <div class="flex items-center justify-between overflow-visible">
-        <router-link to="/" class="p-2">
+    <div class="mx-auto max-w-screen-lg ">
+      <div class="flex items-center justify-between overflow-visible px-4">
+        <router-link to="/" class="p-2 font-medium text-md md:text-xl">
           <img class="hidden md:inline mb-2 h-12 w-12" src="../assets/logo.png" alt="Logo" />
-          <span class="title whitespace-no-wrap text-md md:text-xl font-bold">Joseph Coyne</span>
+          Joseph Coyne
         </router-link>
         <!-- Mobile menu toggle -->
-        <div @click="isOpen = !isOpen" class="mobile md:hidden text-3xl inline-block items-center">
+        <div @click="isOpen = !isOpen" class="md:hidden text-3xl inline-block items-center p-2">
           <div v-if="!isOpen">=</div>
           <div v-if="isOpen">×</div>
         </div>
