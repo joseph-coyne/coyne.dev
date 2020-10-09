@@ -4,7 +4,10 @@ import "./registerServiceWorker";
 import router from "./router";
 import store from "./store";
 import '@/assets/css/tailwind.css'
+import resolveConfig from 'tailwindcss/resolveConfig'
+import tailwindConfig from '../tailwind.config.js'
 
+Vue.prototype.$tw = resolveConfig(tailwindConfig)
 Vue.config.productionTip = false;
 
 new Vue({

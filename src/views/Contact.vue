@@ -1,9 +1,8 @@
 <template>
-  <main class="font-sas flex flex-col mt-10 overflow-auto">
+  <main class="mt-12 overflow-auto">
     <section class="pt-12 mt-2 md:py-16">
-      <div class="container flex flex-col justify-between px-6 md:flex-row md:max-w-screen-lg md:items-center md:mx-auto">
-        <div class="md:max-w-2xl order-2 md:order-1">
-          <h2 class="text-2xl md:text-4xl pb-4 font">Contact Me</h2>
+      <div class="container flex flex-col max-w-screen-md px-6 md:mx-auto">
+        <h2 class="pb-4 font-semibold text-center text-3xl  md:text-4xl">Contact</h2>
           <p class="text-lg md:text-lg">
             If you would like to reach me for any reason, feel free to email me:
             <span
@@ -11,7 +10,6 @@
             ></span>
           </p>
          </div>
-        </div>
       <ProfileCard class="lg:w-full lg:float-right" />
     </section>
   </main>

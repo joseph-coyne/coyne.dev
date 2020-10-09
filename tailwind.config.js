@@ -5,6 +5,12 @@ module.exports = {
   important: false,
   separator: ':',
   theme: {
+    extend: {
+      spacing: {
+        '0.5': '1px',
+      }
+    },
+
     screens: {
       sm: '640px',
       md: '768px',
@@ -92,8 +98,8 @@ module.exports = {
         500: '#4299e1',
         600: '#3182ce',
         700: '#2b6cb0',
-        800: '#2c5282',
-        900: '#2a4365',
+        800: '#5e72e4',
+        900: '#324cdd',
       },
       indigo: {
         100: '#ebf4ff',
@@ -138,7 +144,9 @@ module.exports = {
       '4': '1rem',
       '5': '1.25rem',
       '6': '1.5rem',
+      '7': '1.75rem',
       '8': '2rem',
+      '9': '2.75rem',
       '10': '2.5rem',
       '12': '3rem',
       '16': '4rem',
@@ -244,12 +252,14 @@ module.exports = {
         '"Apple Color Emoji"',
         '"Segoe UI Emoji"',
         '"Segoe UI Symbol"',
-        '"Noto Color Emoji"',,
+        '"Noto Color Emoji"',
       ],
       serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
       mono: ['Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
-      gilroybold: '"Gilroy-ExtraBold"',
-      gilroylight: '"Gilroy-Light"'
+      'gilroy-bold': '"Gilroy-ExtraBold"',
+      'gilroy-light': '"Gilroy-Light"',
+      'open': 'Open Sans, sans-serif',
+
     },
     fontSize: {
       xs: '0.75rem',
@@ -318,10 +328,11 @@ module.exports = {
       ...theme('spacing'),
       ...negative(theme('spacing')),
     }),
-    maxHeight: {
+    maxHeight: theme => ({
+      ...theme('spacing'),
       full: '100%',
       screen: '100vh',
-    },
+    }),
     maxWidth: (theme, { breakpoints }) => ({
       none: 'none',
       xs: '20rem',
@@ -643,7 +654,7 @@ module.exports = {
     borderRadius: ['responsive'],
     borderStyle: ['responsive'],
     borderWidth: ['responsive'],
-    boxShadow: ['responsive', 'hover', 'focus'],
+    boxShadow: ['responsive', 'hover', 'focus', 'active'],
     boxSizing: ['responsive'],
     cursor: ['responsive'],
     display: ['responsive'],
@@ -679,7 +690,7 @@ module.exports = {
     objectPosition: ['responsive'],
     opacity: ['responsive', 'hover', 'focus'],
     order: ['responsive'],
-    outline: ['responsive', 'focus'],
+    outline: ['responsive', 'focus','hover', 'active'],
     overflow: ['responsive'],
     padding: ['responsive'],
     placeholderColor: ['responsive', 'focus'],
@@ -724,6 +735,6 @@ module.exports = {
     transitionDuration: ['responsive'],
     transitionDelay: ['responsive'],
   },
-  corePlugins: {},
+  corePlugins: {outline: false},
   plugins: [],
 }
