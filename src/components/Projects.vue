@@ -88,7 +88,6 @@ export default {
       } else {
         this.isOpen = null;
       }
-			console.log(this.isOpen);
 		}
 	},
 	computed: {}

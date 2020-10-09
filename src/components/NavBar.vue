@@ -35,7 +35,7 @@
 			</div>
 			<div
 				:class="isOpen ? 'block' : 'hidden'"
-				class="md:hidden font-medium w-full absolute bg-blue-100 flex z-10"
+				class="md:hidden font-medium w-full absolute bg-blue-800 flex z-10 border-t-2"
 			>
 				<router-link to="/about" class="text-center px-4 py-2 m-2">
 					<span @click="close()">About</span>
