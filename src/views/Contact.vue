@@ -1,18 +1,18 @@
 <template>
-  <div class="mt-10 pt-12 md:mt-20 mx-6 px-6 md:mx-40">
-    <div class="flex">
-      <div class="float-left sm:w-full">
-        <h2 class="text-2xl md:text-4xl pb-4 font">Contact Me</h2>
-        <p class="text-lg md:text-lg">
-          If you would like to reach me for any reason, feel free to email me:
-          <span
-            class="font-bold mail"
-          ></span>
-        </p>
-      </div>
+  <main class="mt-12 overflow-auto">
+    <section class="pt-12 mt-2 md:py-16">
+      <div class="container flex flex-col max-w-screen-md px-6 md:mx-auto">
+        <h2 class="pb-4 font-semibold text-center text-3xl  md:text-4xl">Contact</h2>
+          <p class="text-lg md:text-lg">
+            If you would like to reach me for any reason, feel free to email me:
+            <span
+              class="font-bold mail"
+            ></span>
+          </p>
+         </div>
       <ProfileCard class="lg:w-full lg:float-right" />
-    </div>
-  </div>
+    </section>
+  </main>
 </template>
 
 <script>
