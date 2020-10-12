@@ -5,7 +5,7 @@
 				<router-link to="/" class="md:p-2 font-medium text-md md:text-xl leading-6">
 					<!-- <img
 						class="hidden md:inline mb-2 h-12 w-12"
-						src="../assets/logo.png"
+						src="../assets/images/logo.png"
 						alt="Logo"
 					/> -->
 					Joseph Coyne

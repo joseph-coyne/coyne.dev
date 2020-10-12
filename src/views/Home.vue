@@ -4,8 +4,8 @@
       <div
         class="container flex flex-col justify-between px-6 md:flex-row  md:items-center "
       >
-        <div class="md:max-w-2xl order-2 md:order-1">
-          <h1 class="text-2xl font-semibold leading-tight md:text-4xl mb-6 ">
+        <div class="order-2 md:order-1">
+          <h1 class="text-2xl md:text-4xl font-semibold leading-tight mb-6 ">
             Hello! I'm Joseph Coyne. 
             <br> I am a full stack developer.
           </h1>

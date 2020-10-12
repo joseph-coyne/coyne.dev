@@ -1,5 +1,5 @@
 <template>
-	<section class="pt-12 my-2 md:py-16 ">
+	<section class="my-2 md:py-16 ">
 		<h2 class="font-semibold text-3xl mb-12">Projects</h2>
 		<div class="flex flex-col">
 			<div
@@ -8,7 +8,7 @@
 				:key="i"
 			>
 
-        <div class="flex flex-wrap flex-row-reverse md:flex-row justify-between items-center py-2 bg-gray-200 rounded md:py-0 md:my-2 md:px-2 my-1 overflow-y-hidden transition-all duration-200"
+        <div class="flex flex-wrap flex-row-reverse md:flex-row justify-between items-center py-2 bg-gray-200 rounded md:py-0 my-1 md:my-2 overflow-y-hidden transition-all duration-200"
         ref="projects"
         :class="[isOpen === i ? maxHeight : 'max-h-10']">
           <h1 class="font-semibold whitespace-no-wrap order-2 md:order-1">{{ project.name }}</h1>
@@ -23,7 +23,7 @@
           <a
             :href="project.link"
             target="_blank"
-            class=" bg-blue-800 hover:bg-blue-900 text-sm text-white font-medium mt-3 md:my-0 p-1 rounded shadow-md transform ease-in-out duration-200 hover:-translate-y-0.5 md:inline order-3 md:order-2 md:float-none "
+            class=" bg-blue-800 hover:bg-blue-900 text-sm text-white font-medium mt-3 md:my-0 p-1 rounded shadow-md order-3 md:order-2 transform ease-in-out duration-200 hover:-translate-y-0.5 "
           >
             <span class="px-1 font-open font-semibold">
               Link
