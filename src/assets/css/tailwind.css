@@ -3,3 +3,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities{
+  .text-indent {
+    text-indent: 30px;
+  }
+}
+* {
+	outline: none !important;
+}

@@ -1,5 +1,7 @@
 module.exports = {
-  purge: [],
+  purge: [
+
+  ],
   target: 'relaxed',
   prefix: '',
   important: false,
@@ -136,8 +138,11 @@ module.exports = {
       },
     },
     spacing: {
+      'px.5': '.5px',
       px: '1px',
       '0': '0',
+      '.5': '0.125rem',
+      '.75': '0.1875rem',
       '1': '0.25rem',
       '2': '0.5rem',
       '3': '0.75rem',
@@ -262,6 +267,7 @@ module.exports = {
 
     },
     fontSize: {
+      '2xs': '0.625rem',
       xs: '0.75rem',
       sm: '0.875rem',
       base: '1rem',
@@ -291,6 +297,8 @@ module.exports = {
       screen: '100vh',
     }),
     inset: {
+      'sm': '10px',
+      'md': '20px',
       '0': '0',
       auto: 'auto',
     },
@@ -643,7 +651,7 @@ module.exports = {
     alignSelf: ['responsive'],
     appearance: ['responsive'],
     backgroundAttachment: ['responsive'],
-    backgroundColor: ['responsive', 'hover', 'focus'],
+    backgroundColor: ['responsive', 'hover', 'focus', 'checked'],
     backgroundOpacity: ['responsive', 'hover', 'focus'],
     backgroundPosition: ['responsive'],
     backgroundRepeat: ['responsive'],

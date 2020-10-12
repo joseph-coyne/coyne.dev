@@ -95,7 +95,5 @@ export default {
 </script>
 
 <style scoped>
-* {
-	outline: none !important;
-}
+
 </style>

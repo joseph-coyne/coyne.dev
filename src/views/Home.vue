@@ -1,6 +1,6 @@
 <template>
   <main class="flex flex-col mt-12 overflow-auto md:max-w-4xl mx-auto">
-    <section class="pt-12 mt-2 md:py-16 ">
+    <section class="pt-12 mt-2 md:py-16">
       <div
         class="container flex flex-col justify-between px-6 md:flex-row  md:items-center "
       >
