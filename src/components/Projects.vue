@@ -56,19 +56,19 @@ export default {
 					name: 'Spark Fitness',
 					bio:
 						'Application for personal trainers and clients to find and schedule workouts.',
-					link: 'https://github.com/josephpcoyne/fitness-application'
+					link: 'https://github.com/joseph-coyne/fitness-application'
 				},
 				{
 					name: 'coyne.dev',
 					bio:
 						'This website! An experiemental playground for any new tech I want to try.',
-					link: 'https://github.com/josephpcoyne/coyne.dev'
+					link: 'https://github.com/joseph-coyne/coyne.dev'
 				},
 				{
 					name: 'Vue RPG',
 					bio:
 						'A classic RPG game built with Vue.js during a speedrun development.',
-					link: 'https://github.com/josephpcoyne/vue-rpg'
+					link: 'https://github.com/joseph-coyne/vue-rpg'
 				}
 			]
 		};
