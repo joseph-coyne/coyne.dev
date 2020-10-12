@@ -10,7 +10,6 @@
             ></span>
           </p>
          </div>
-      <ProfileCard class="lg:w-full lg:float-right" />
     </section>
   </main>
 </template>
