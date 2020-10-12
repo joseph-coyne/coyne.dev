@@ -1,5 +1,5 @@
 <template>
-  <main class="mt-12 overflow-auto">
+  <main class="flex flex-col mt-12 overflow-auto">
     <section class="pt-12 mt-2 md:py-16">
       <div class="container flex flex-col max-w-screen-md px-6 md:mx-auto">
         <h2 class="pb-4 font-semibold text-center text-3xl  md:text-4xl">Who am I?</h2>
