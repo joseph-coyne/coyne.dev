@@ -2,10 +2,10 @@
 	<nav class="mb-10"
 	:class="[ currentRoute ? 'nav-white' : 'nav-blue']">
 		<div class="mx-auto max-w-screen-lg">
-			<div class="flex items-center md:p-3 justify-between overflow-visible px-4">
-				<router-link to="/" class="md:p-2 font-medium text-md md:text-xl leading-6">
+			<div class="flex items-center sm:p-3 justify-between overflow-visible px-4">
+				<router-link to="/" class="sm:p-2 font-medium text-md sm:text-xl leading-6">
 					<!-- <img
-						class="hidden md:inline mb-2 h-12 w-12"
+						class="hidden sm:inline mb-2 h-12 w-12"
 						src="../assets/images/logo.png"
 						alt="Logo"
 					/> -->
@@ -14,13 +14,13 @@
 				<!-- Mobile menu toggle -->
 				<div
 					@click="isOpen = !isOpen"
-					class="md:hidden text-3xl inline-block items-center p-2"
+					class="sm:hidden text-3xl inline-block items-center p-2"
 				>
 					<span v-if="!isOpen"> = </span>
 					<span v-if="isOpen"> × </span>
 				</div>
 
-				<div class="hidden font-medium md:inline justify-between items-center">
+				<div class="hidden font-medium sm:inline justify-between items-center">
 					<router-link
 						to="/about"
 						class="font-open font-semibold m-2 px-5 py-3 rounded active:shadow-md">
@@ -36,7 +36,7 @@
 			</div>
 			<div
 				:class="isOpen ? 'block' : 'hidden'"
-				class="md:hidden font-medium w-full absolute bg-blue-800 flex z-10 border-t-2"
+				class="sm:hidden font-medium w-full absolute bg-blue-800 flex z-10 border-t-2"
 			>
 				<router-link to="/about" class="text-center px-4 py-2 m-2">
 					<span @click="close()">About</span>

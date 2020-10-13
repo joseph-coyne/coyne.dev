@@ -1,7 +1,7 @@
 <template>
   <div id="app"
-  class="h-screen overflow-auto"
-   :class="[ currentRoute ? 'bg-blue-800' : 'bg-white' ]">
+  class="h-screen overflow-auto w-screen flex justify-center items-center"
+   :class="[ currentRoute ? 'bg-indigo-500' : 'bg-white' ]">
 
     <NavBar class="inset-x-0 top-0 fixed" />
 

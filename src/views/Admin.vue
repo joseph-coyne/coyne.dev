@@ -33,7 +33,7 @@
 						<div :class="{'hidden': openTab !== 1, 'block': openTab === 1}">
 							<div class="flex flex-row bg-white w-full rounded-t border-b justify-between">
 								<h1 class="text-lg text-gray-700 m-2 p-2">Edit Home page</h1>
-								<button class="bg-indigo-500 place-self-center text-white active:bg-indigo-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md active:bg-indigo-700 mr-4  ease-linear transition-all duration-150" type="button">
+								<button class="bg-indigo-500 place-self-center text-white active:bg-indigo-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md mr-4  ease-linear transition-all duration-150" type="button">
 									Save
 								</button>
 							</div>
@@ -43,7 +43,7 @@
 										<div class="flex flex-col w-2/6 mr-10 mt-2">
 											<img src="@/assets/images/headshot-cropped.png" alt="Upload a picture" 
 											class="shadow rounded max-w-s max-h-s object-cover align-middle border-none mb-4" />
-											<button class="w-32 bg-indigo-500 place-self-center text-white active:bg-indigo-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md active:bg-indigo-700 mr-1 mb-1 ease-linear transition-all duration-150" type="button">
+											<button class="w-32 bg-indigo-500 place-self-center text-white active:bg-indigo-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md mr-1 mb-1 ease-linear transition-all duration-150" type="button">
 												Upload Photo
 											</button>
 										</div>
@@ -60,7 +60,7 @@
 						<div :class="{'hidden': openTab !== 2, 'block': openTab === 2}">
 							<div class="flex flex-row bg-white w-full rounded-t border-b justify-between">
 								<h1 class="text-lg text-gray-700 m-2 p-2">Edit Projects</h1>
-								<button class="bg-indigo-500 place-self-center text-white active:bg-indigo-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md active:bg-indigo-700 mr-4  ease-linear transition-all duration-150" type="button">
+								<button class="bg-indigo-500 place-self-center text-white active:bg-indigo-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md mr-4  ease-linear transition-all duration-150" type="button">
 									Save
 								</button>
 							</div>
@@ -70,7 +70,7 @@
 										<div class="flex flex-col w-2/6 mr-10 mt-2">
 											<img src="" alt="Upload a picture" 
 											class="shadow rounded object-cover max-w-s max-h-s bg-white align-middle border-none mb-4" />
-											<button class="w-32 bg-indigo-500 place-self-center text-white active:bg-indigo-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md active:bg-indigo-700 mr-1 mb-1 ease-linear transition-all duration-150" type="button">
+											<button class="w-32 bg-indigo-500 place-self-center text-white active:bg-indigo-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md mr-1 mb-1 ease-linear transition-all duration-150" type="button">
 												Upload Photo
 											</button>
 										</div>
@@ -87,7 +87,7 @@
 						<div :class="{'hidden': openTab !== 3, 'block': openTab === 3}">
 							<div class="flex flex-row bg-white w-full rounded-t border-b justify-between">
 								<h1 class="text-lg text-gray-700 m-2 p-2">Edit About page</h1>
-								<button class="bg-indigo-500 place-self-center text-white active:bg-indigo-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md active:bg-indigo-700 mr-4 ease-linear transition-all duration-150" type="button">
+								<button class="bg-indigo-500 place-self-center text-white active:bg-indigo-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md mr-4 ease-linear transition-all duration-150" type="button">
 									Save
 								</button>
 							</div>
@@ -97,7 +97,7 @@
 										<div class="flex flex-col w-2/6 mr-10 mt-2">
 											<img src="@/assets/images/luna.jpg" alt="Upload a picture" 
 											class="shadow rounded max-w-s max-h-s object-cover align-middle border-none mb-4" />
-											<button class="w-32 bg-indigo-500 place-self-center text-white active:bg-indigo-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md active:bg-indigo-700 mr-1 mb-1 ease-linear transition-all duration-150" type="button">
+											<button class="w-32 bg-indigo-500 place-self-center text-white active:bg-indigo-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md mr-1 mb-1 ease-linear transition-all duration-150" type="button">
 												Upload Photo
 											</button>
 										</div>
@@ -114,7 +114,7 @@
 						<div :class="{'hidden': openTab !== 4, 'block': openTab === 4}">
 							<div class="flex flex-row bg-white w-full rounded-t border-b justify-between">
 								<h1 class="text-lg text-gray-700 m-2 p-2">Edit Contact page</h1>
-								<button class="bg-indigo-500 place-self-center text-white active:bg-indigo-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md active:bg-indigo-700 mr-4  ease-linear transition-all duration-150" type="button">
+								<button class="bg-indigo-500 place-self-center text-white active:bg-indigo-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md mr-4  ease-linear transition-all duration-150" type="button">
 									Save
 								</button>
 							</div>

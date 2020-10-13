@@ -23,7 +23,7 @@
           <a
             :href="project.link"
             target="_blank"
-            class=" bg-indigo-500 place-self-center text-white active:bg-indigo-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md active:bg-indigo-700 hover:bg-indigo-400 mr-4  ease-linear transition-all duration-150 order-3 md:order-2"
+            class=" bg-indigo-500 place-self-center text-white active:bg-indigo-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md hover:bg-indigo-400 mr-4  ease-linear transition-all duration-150 order-3 md:order-2"
           >
             <span class="px-1 font-open font-semibold">
               Link

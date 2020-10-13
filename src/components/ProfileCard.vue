@@ -1,7 +1,7 @@
 <template>
   <div class="profile-card py-4">
     <img
-      class="max-w-xs h-32 w-sm rounded-lg md:ml-20 md:max-w-xs md:h-auto md:w-auto"
+      class="max-w-xs h-32 w-sm rounded-lg mb-8 sm:mb-0 sm:ml-20 sm:max-w-xs sm:h-auto sm:w-auto"
       src="../assets/images/headshot-cropped.png"
       alt="Me!"
     />
