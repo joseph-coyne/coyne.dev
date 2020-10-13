@@ -12,3 +12,10 @@
 * {
 	outline: none !important;
 }
+
+.nav-blue {
+  @apply text-white bg-blue-800;
+}
+.nav-white {
+  @apply text-blue-800 bg-white;
+}

@@ -12,7 +12,6 @@ module.exports = {
         '0.5': '1px',
       }
     },
-
     screens: {
       sm: '640px',
       md: '768px',
@@ -245,11 +244,11 @@ module.exports = {
     },
     fontFamily: {
       sans: [
+        'Roboto',
         'system-ui',
         '-apple-system',
         'BlinkMacSystemFont',
         '"Segoe UI"',
-        'Roboto',
         '"Helvetica Neue"',
         'Arial',
         '"Noto Sans"',
@@ -651,7 +650,7 @@ module.exports = {
     alignSelf: ['responsive'],
     appearance: ['responsive'],
     backgroundAttachment: ['responsive'],
-    backgroundColor: ['responsive', 'hover', 'focus', 'checked'],
+    backgroundColor: ['responsive', 'hover', 'focus', 'checked', 'active'],
     backgroundOpacity: ['responsive', 'hover', 'focus'],
     backgroundPosition: ['responsive'],
     backgroundRepeat: ['responsive'],

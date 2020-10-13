@@ -1,5 +1,6 @@
 <template>
-	<nav class="mb-10 bg-blue-800  text-white">
+	<nav class="mb-10"
+	:class="[ currentRoute ? 'nav-white' : 'nav-blue']">
 		<div class="mx-auto max-w-screen-lg">
 			<div class="flex items-center md:p-3 justify-between overflow-visible px-4">
 				<router-link to="/" class="md:p-2 font-medium text-md md:text-xl leading-6">
@@ -64,7 +65,12 @@ export default {
 		close() {
 			this.isOpen = false;
 		}
-	}
+	},
+	computed: {
+    currentRoute() {
+      return this.$route.name === 'Login' || this.$route.name === 'Admin'
+    }
+  },
 };
 </script>
 

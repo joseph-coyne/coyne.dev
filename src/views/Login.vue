@@ -1,5 +1,5 @@
 <template>
-  <main class="flex flex-col mt-12 overflow-auto md:max-w-4xl mx-auto">
+  <main class="flex flex-col mt-12 md:max-w-4xl mx-auto">
     <section class="pt-12 mt-2 md:py-16">
       <div class="flex justify-center">
         <form @submit.prevent class="flex flex-col justify-center rounded w-1/2">
@@ -7,7 +7,7 @@
           <p class="text-lg">Looks like you found my admin page!</p>
           <p class="text-gray-600 my-4">Would you like to see what it looks like?</p>
           <button
-            class="bg-blue-800 place-self-center hover:bg-blue-900 font-open font-semibold text-sm text-white rounded py-2 px-4 w-24 shadow-md transform ease-in-out active:outline-none focus:outline-none duration-200 hover:-translate-y-0.5 "
+            class="bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700 place-self-center font-open font-semibold text-sm text-white rounded py-2 px-4 w-24 shadow-md transform ease-in-out active:outline-none focus:outline-none duration-200 hover:-translate-y-0.5 "
           >DEMO
           </button>
         </div>
@@ -29,10 +29,10 @@
               <i class="fas fa-check text-white text-2xs checked:hidden absolute pointer-events-none ml-.75 left-0 top-sm"></i>
               <span class="text-gray-600 absolute pt-1">Remember Me</span>
             </div>
-            <button
-              class="bg-blue-800 place-self-center hover:bg-blue-900 font-open font-semibold text-sm text-white rounded py-2 px-4 w-24 mt-8 shadow-md transform ease-in-out active:outline-none focus:outline-none duration-200 hover:-translate-y-0.5 "
-            >SIGN IN
-            </button>
+            <router-link to="/admin"
+              class="bg-indigo-600 text-center place-self-center hover:bg-blue-900 font-open font-semibold text-sm text-white rounded py-2 px-4 w-24 mt-8 shadow-md transform ease-in-out active:outline-none focus:outline-none duration-200 hover:-translate-y-0.5 ">
+              SIGN IN
+            </router-link>
           </div>
           
         </form>
@@ -48,7 +48,6 @@
   }
 </script>
 
-<style scoped>
-
+<style>
 
 </style>

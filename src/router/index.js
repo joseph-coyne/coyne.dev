@@ -4,7 +4,7 @@ import Home from "../views/Home.vue";
 import About from "../views/About.vue";
 import Contact from "../views/Contact.vue";
 import Login from "../views/Login.vue";
-
+import Admin from "../views/Admin.vue"
 Vue.use(VueRouter);
 
 const routes = [
@@ -27,7 +27,11 @@ const routes = [
     path: "/login",
     name: "Login",
     component: Login
-  }
+  },{
+    path: '/admin',
+    name: 'Admin',
+    component: Admin
+  },
 ];
 
 const router = new VueRouter({
