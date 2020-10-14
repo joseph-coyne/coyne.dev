@@ -1,6 +1,6 @@
 <template>
-  <main class="md:max-w-4xl">
-    <section class="">
+  <main class="flex flex-col mt-12 mx-auto sm:max-w-4xl">
+    <section class="pt-12 mt-2 sm:py-16">
       <div class="flex justify-center">
         <form @submit.prevent class="flex flex-col justify-center rounded">
           <div class="flex flex-col w-full bg-white rounded-t text-center p-8">
@@ -9,8 +9,8 @@
               <p class="text-gray-600 my-4">Would you like to see what it looks like?</p>
             </div>
               <button
-                class="bg-indigo-500 hover:bg-indigo-400 active:bg-indigo-600 text-center place-self-center  font-open font-semibold text-sm text-white rounded py-2 px-4 w-24 shadow-md active:outline-none focus:outline-none ease-linear transition-all duration-150"
-              >DEMO
+                class= "place-self-center btn btn-blue"
+              >Demo
               </button>
 
           </div>
@@ -37,8 +37,8 @@
               </div>
             </div>
             <router-link to="/admin"
-              class="bg-indigo-500 hover:bg-indigo-400 active:bg-indigo-600 text-center place-self-center font-open font-semibold text-sm text-white rounded py-2 px-4 w-24 shadow-md active:outline-none focus:outline-none ease-linear transition-all duration-150">
-              SIGN IN
+              class="place-self-center btn btn-blue">
+              Sign In
             </router-link>
           </div>
           

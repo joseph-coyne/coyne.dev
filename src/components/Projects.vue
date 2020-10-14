@@ -1,5 +1,5 @@
 <template>
-	<section class="my-2 md:py-16 ">
+	<section class="my-2 sm:py-16 ">
 		<h2 class="font-semibold text-3xl mb-12">Projects</h2>
 		<div class="flex flex-col">
 			<div
@@ -7,30 +7,29 @@
 				v-for="(project, i) in projects"
 				:key="i"
 			>
-
-        <div class="flex flex-wrap flex-row-reverse md:flex-row justify-between items-center py-2 bg-gray-200 rounded md:py-0 my-1 md:my-2 overflow-y-hidden transition-all duration-200"
+        <div class="flex flex-wrap flex-row-reverse sm:flex-row justify-between items-center py-2 bg-gray-200 rounded sm:py-0 my-1 sm:my-2 pb-4 overflow-y-hidden transition-all duration-200"
         ref="projects"
         :class="[isOpen === i ? maxHeight : 'max-h-10']">
-          <h1 class="font-semibold whitespace-no-wrap order-2 md:order-1">{{ project.name }}</h1>
-          <p class="hidden md:inline order-2 text-gray-700 whitespace-no-wrap">
+          <h1 class="font-semibold whitespace-no-wrap order-2 sm:order-1">{{ project.name }}</h1>
+          <p class=" sm:inline order-2 py-4 sm:py-0 text-gray-700 sm:whitespace-no-wrap">
             {{ project.bio }} 
           </p>
 
-          <p class="md:hidden py-2 order-2 text-gray-700 md:text-center">
+          <!-- <p class="sm:hidden py-2 order-2 text-gray-700 sm:text-center">
             {{ project.bio }}
-          </p>
+          </p> -->
     
           <a
             :href="project.link"
             target="_blank"
-            class=" bg-indigo-500 place-self-center text-white active:bg-indigo-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md hover:bg-indigo-400 mr-4  ease-linear transition-all duration-150 order-3 md:order-2"
+            class=" btn btn-blue mr-1 sm:mr-1 order-3 sm:order-2"
           >
             <span class="px-1 font-open font-semibold">
               Link
             </span>
             <i class="fab fa-github px-1"></i>
           </a>
-          <button class="md:hidden order-1"
+          <button class="sm:hidden order-1"
             @click="toggleAccordion(i)">
             <i
               class="p-1 outline-none text-blue-800 fas fa-chevron-down"

@@ -12,10 +12,30 @@
 * {
 	outline: none !important;
 }
+*:active {
+	outline: none !important;
+}
+*:focus {
+	outline: none !important;
+}
 
 .nav-blue {
   @apply text-white bg-indigo-500;
 }
 .nav-white {
   @apply text-indigo-500 bg-white;
+}
+
+.btn {
+  @apply text-center place-self-center  font-bold text-xs text-white uppercase rounded py-2 px-4 shadow-md ease-linear transition-all duration-150;
+}
+.btn-blue {
+  @apply bg-indigo-500;
+}
+.btn-blue:hover {
+  @apply bg-indigo-400;
+}
+
+.btn-blue:active {
+  @apply bg-indigo-600; 
 }

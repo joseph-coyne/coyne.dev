@@ -1,6 +1,6 @@
 <template>
   <div id="app"
-  class="h-screen overflow-auto w-screen flex justify-center items-center"
+  class="h-screen overflow-auto w-screen flex justify-center"
    :class="[ currentRoute ? 'bg-indigo-500' : 'bg-white' ]">
 
     <NavBar class="inset-x-0 top-0 fixed" />

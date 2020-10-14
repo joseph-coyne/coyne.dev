@@ -1,15 +1,17 @@
 <template>
-  <main class="flex flex-col mt-12 md:max-w-4xl mx-auto">
-    <section class="pt-12 mt-2 md:py-16">
+  <main class="flex flex-col mt-12 sm:max-w-4xl">
+    <section class="pt-12 sm:mt-10 sm:py-16">
       <div class="container flex flex-col px-6">
-        <h2 class="pb-4 font-semibold text-3xl  md:text-4xl">Contact</h2>
-          <p class="text-lg md:text-lg">
+        <h2 class="pb-4 font-semibold text-3xl sm:text-4xl">Contact</h2>
+        <div class="flex flex-col text-lg">
+          <p class="py-2 text-xl">
             If you would like to reach me for any reason, feel free to email me:
             <span
               class="font-bold mail text-blue-800"
             ></span>
           </p>
-         </div>
+        </div>
+      </div>
     </section>
   </main>
 </template>

@@ -1,6 +1,6 @@
 <template>
-  <main class="flex flex-col mt-12 md:max-w-3xl mx-auto">
-    <section class="pt-12 mt-2 md:py-16">
+  <main class="flex flex-col mt-12 mx-auto sm:max-w-3xl ">
+    <section class="pt-12 mt-2 sm:py-16">
 			<div class="flex flex-wrap">
 				<div class="w-full flex flex-col">
 					<ul class="flex mb-0 list-none flex-wrap pb-4 flex-row">
@@ -33,7 +33,7 @@
 						<div :class="{'hidden': openTab !== 1, 'block': openTab === 1}">
 							<div class="flex flex-row bg-white w-full rounded-t border-b justify-between">
 								<h1 class="text-lg text-gray-700 m-2 p-2">Edit Home page</h1>
-								<button class="bg-indigo-500 place-self-center text-white active:bg-indigo-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md mr-4  ease-linear transition-all duration-150" type="button">
+								<button class="btn btn-blue mr-4" type="button">
 									Save
 								</button>
 							</div>
@@ -43,7 +43,7 @@
 										<div class="flex flex-col w-2/6 mr-10 mt-2">
 											<img src="@/assets/images/headshot-cropped.png" alt="Upload a picture" 
 											class="shadow rounded max-w-s max-h-s object-cover align-middle border-none mb-4" />
-											<button class="w-32 bg-indigo-500 place-self-center text-white active:bg-indigo-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md mr-1 mb-1 ease-linear transition-all duration-150" type="button">
+											<button class="w-32 btn btn-blue mr-1 mb-1" type="button">
 												Upload Photo
 											</button>
 										</div>
